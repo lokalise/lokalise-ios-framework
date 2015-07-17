@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
   
   s.name         = "Lokalise"
-  s.version      = "0.1.1"
+  s.version      = "0.2"
   s.summary      = "Lokalise framework for remote localization of iOS applications."
   s.description  = ""
 
@@ -19,6 +19,6 @@ Pod::Spec.new do |s|
   s.ios.vendored_frameworks = "Lokalise.framework"
 
   s.xcconfig = { "HEADER_SEARCH_PATHS" => "$(inherited)" }
-  s.dependency "SSZipArchive", "~> 0.1"
+  s.dependency "zipzap", "~> 8.0"
 
 end

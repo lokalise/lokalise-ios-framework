@@ -7,7 +7,6 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "SSZipArchive.h"
 
 @protocol LokaliseDelegate;
 
