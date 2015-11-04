@@ -99,9 +99,9 @@ extern NSString *__nonnull const LKLAPIErrorDomain;
 
 @protocol LokaliseDelegate <NSObject>
 
-- (void)lokaliseDidUpdateLocalization:(Lokalise*__nullable)lokalise;
-- (void)lokaliseDidCheckForUpdates:(Lokalise*__nullable)lokalise;
-- (void)lokalise:(Lokalise*__nullable)lokalise didFailToUpdateLocalizationWithError:(NSError*__nullable)error;
-- (void)lokalise:(Lokalise*__nullable)lokalise didFailToLoadLocalizationForLocale:(NSLocale*__nullable)locale error:(NSError*__nullable)error;
+- (void)lokaliseDidUpdateLocalization:(Lokalise*__nonnull)lokalise;
+- (void)lokaliseDidCheckForUpdates:(Lokalise*__nonnull)lokalise;
+- (void)lokalise:(Lokalise*__nonnull)lokalise didFailToUpdateLocalizationWithError:(NSError*__nonnull)error;
+- (void)lokalise:(Lokalise*__nonnull)lokalise didFailToLoadLocalizationForLocale:(NSLocale*__nonnull)locale error:(NSError*__nonnull)error;
 
 @end
