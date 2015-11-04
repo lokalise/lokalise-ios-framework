@@ -13,24 +13,24 @@
 /**
  *  Lokalise framework error domain
  */
-extern NSString *const LKLErrorDomain;
+extern NSString *__nonnull const LKLErrorDomain;
 /**
  *  Lokalise API error domain
  */
-extern NSString *const LKLAPIErrorDomain;
+extern NSString *__nonnull const LKLAPIErrorDomain;
 
 @interface Lokalise : NSObject
 
-+ (instancetype)sharedObject;
++ (instancetype __nonnull)sharedObject;
 
 /**
  *  Lokalise API access token.
  */
-@property (strong, nonatomic, readonly) NSString *token;
+@property (strong, nonatomic, readonly, nullable) NSString *token;
 /**
  *  Lokalise Project ID.
  */
-@property (strong, nonatomic, readonly) NSString *projectID;
+@property (strong, nonatomic, readonly, nullable) NSString *projectID;
 /**
  *  Localization version.
  */
@@ -48,7 +48,7 @@ extern NSString *const LKLAPIErrorDomain;
  *  Currently selected localization locale.
  *  Can be set only to one of available locales.
  */
-@property (strong, nonatomic) NSLocale *localizationLocale;
+@property (strong, nonatomic, nonnull) NSLocale *localizationLocale;
 /**
  *  Lokalise framework delegate
  */
@@ -56,7 +56,7 @@ extern NSString *const LKLAPIErrorDomain;
 /**
  *  @return NSArray of NSLocale objects. Always has at least one locale.
  */
-- (NSArray*)availableLocales;
+- (NSArray <NSLocale *> *__nonnull)availableLocales;
 /**
  *  @discussion This method returns the following when key is nil or not found in table:
  
@@ -74,7 +74,7 @@ extern NSString *const LKLAPIErrorDomain;
  *
  *  @return A localized version of the string designated by key in table tableName.
  */
-- (NSString*)localizedStringForKey:(NSString *)key value:(NSString *)value table:(NSString *)tableName;
+- (NSString *__nonnull)localizedStringForKey:(NSString *__nonnull)key value:(NSString *__nullable)value table:(NSString *__nullable)tableName NS_FORMAT_ARGUMENT(1);
 /**
  *  Check if new localization version is available and downloads it.
  */
@@ -99,9 +99,9 @@ extern NSString *const LKLAPIErrorDomain;
 
 @protocol LokaliseDelegate <NSObject>
 
-- (void)lokaliseDidUpdateLocalization:(Lokalise*)lokalise;
-- (void)lokaliseDidCheckForUpdates:(Lokalise*)lokalise;
-- (void)lokalise:(Lokalise*)lokalise didFailToUpdateLocalizationWithError:(NSError*)error;
-- (void)lokalise:(Lokalise*)lokalise didFailToLoadLocalizationForLocale:(NSLocale*)locale error:(NSError*)error;
+- (void)lokaliseDidUpdateLocalization:(Lokalise*__nullable)lokalise;
+- (void)lokaliseDidCheckForUpdates:(Lokalise*__nullable)lokalise;
+- (void)lokalise:(Lokalise*__nullable)lokalise didFailToUpdateLocalizationWithError:(NSError*__nullable)error;
+- (void)lokalise:(Lokalise*__nullable)lokalise didFailToLoadLocalizationForLocale:(NSLocale*__nullable)locale error:(NSError*__nullable)error;
 
 @end
