@@ -6,11 +6,11 @@ No need to resubmit your app for review to update strings or translations anymor
 
 ## Features
 
-- **Over the air (OTA) localization:** When downloading your iOS strings check `Generate bundle for Lokalise iOS framework` and get the strings directly into your app.
+- **Over-the-air (OTA) localization**
 
-- **Change application language:** You can select any language that is supported by project local localization. *([limitations](#limitations))*
+- **Change application language** – select any language that is supported by project local localization. *([limitations](#limitations))*
 
-- **Test localizations:** You can create pre-release **OTA** localizations for your application. No need to recompile sources. Once the bundles are generated (at Lokalise Download page), see project settings to control versions and pre-release status.
+- **Test localizations** - create pre-release **OTA** localization bundles for your application. No need to recompile sources. Once the bundles are generated (at Lokalise Download page), see project settings to control versions and pre-release status.
 
 ### Experimental
 
@@ -60,6 +60,8 @@ To connect your application to your **Lokalise** project you need to add a dicti
 Done! Please note that names are case-sensitive.
 
 ## Usage
+
+Make sure you have generated Lokalise iOS bundle at Download page on Lokalise (make sure to check "Generate Lokalise iOS framework bundle" checkbox). Once generated, navigate to project settings and adjust which version of the bundle is for production and which is for pre-release environment.
 
 Start with updating remote localization to the latest version
 
