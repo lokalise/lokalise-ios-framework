@@ -14,7 +14,7 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = "7.0"
 
-  s.source = {:git => "git@github.com:Fedya-L/lokalise-ios-framework.git", :tag => s.version}
+  s.source = {:git => "git@github.com:lokalise/lokalise-ios-framework.git", :tag => s.version}
   
   s.ios.vendored_frameworks = "Lokalise.framework"
 
