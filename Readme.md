@@ -6,11 +6,11 @@ No need to resubmit your app for review to update strings or translations anymor
 
 ## Features
 
-- **Over the air (OTA) localization:** When exporting your iOS strings check `Generate bundle for Lokalise iOS framework` and have them available in your application.
+- **Over the air (OTA) localization:** When downloading your iOS strings check `Generate bundle for Lokalise iOS framework` and get the strings directly into your app.
 
 - **Change application language:** You can select any language that is supported by project local localization. *([limitations](#limitations))*
 
-- **Test localizations:** You can create pre-release **OTA** localizations for your application. No need to recompile sources.
+- **Test localizations:** You can create pre-release **OTA** localizations for your application. No need to recompile sources. Once the bundles are generated (at Lokalise Download page), see project settings to control versions and pre-release status.
 
 ### Experimental
 
