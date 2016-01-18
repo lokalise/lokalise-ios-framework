@@ -38,7 +38,7 @@ Experimental features are available, use at your own risk:
 To install using **cocoapods** simply add this line to your **Podfile**
 
 ```
-pod 'Lokalise', :git => 'git@github.com:lokalise/lokalise-ios-framework.git'
+pod 'Lokalise'
 ```
 
 Dependencies will be installed automatically.
