@@ -58,7 +58,7 @@ Dependencies will be installed automatically.
 
 Download **Lokalise.framework** and add it too your project.
 
-You also need to add **[SSZipArchive](https://github.com/soffes/ssziparchive)** to your project.
+You also need to add **[ZipZap](https://github.com/pixelglow/zipzap)** to your project.
 
 ## [Project setup](id:setup)
 
