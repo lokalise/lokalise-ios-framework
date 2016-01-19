@@ -2,7 +2,7 @@
 
 **[Lokalise](https://lokali.se)** lets you manage keys and translations of your app, game or website – either on your own or with a team of collaborators. Built for developers, Lokalise offers neat features including inline suggestions, project chat, export webhooks and an API, so you can easily integrate with your projects workflow.
 
-No need to resubmit your app for review to update strings or translations anymore. Use Lokalise iOS framework and get your app localised with a few lines of code. 
+No need to resubmit your app for review to update strings or translations anymore. Use Lokalise iOS framework and get your app localised with a few lines of code.
 
 ## Features
 
@@ -10,7 +10,7 @@ No need to resubmit your app for review to update strings or translations anymor
 
 - **Change application language** – select any language that is supported by project local localization. *([limitations](#limitations))*
 
-- **Test localizations** - create pre-release **OTA** localization bundles for your application. No need to recompile sources. Once the bundles are generated (at Lokalise Download page), see project settings to control versions and pre-release status.
+- **Test localizations** - create pre-release **OTA** localization bundles for your application. No need to recompile sources. Once the bundles are generated (at Lokalise Download page), see project settings (Lokalise iOS framework tab) to control versions and pre-release status.
 
 ### Experimental
 
@@ -31,14 +31,25 @@ Experimental features are available, use at your own risk:
 - **Remote localization exports**: You must ensure that all localizations are formatted properly by downloading the .zip bundle form Lokalise and trying to compile it with your app.
 
 
-## Installation
+## Gettings started
+
+To start using Lokalise framework you need to do the following steps:
+
+- [Import](http://docs.lokali.se/en/topic/Uploading-files) source files to Lokalise
+- Go to Downloads page, turn off "Use source filenames", select "Lokalise iOS framework" format and Generate the bundle. Note, you can adjust which bundle is the actual production or pre-release bundle in project settings (Lokalise iOS framework tab).
+- [Install](#installation) Lokalise framework
+- [Setup](#setup) your project
+
+
+
+## [Installation](id:installation)
 
 ### Cocoapods
 
 To install using **cocoapods** simply add this line to your **Podfile**
 
 ```
-pod 'Lokalise'
+pod 'Lokalise', '~> 0.3.0'
 ```
 
 Dependencies will be installed automatically.
@@ -49,7 +60,7 @@ Download **Lokalise.framework** and add it too your project.
 
 You also need to add **[SSZipArchive](https://github.com/soffes/ssziparchive)** to your project.
 
-## Setup
+## [Project setup](id:setup)
 
 To connect your application to your **Lokalise** project you need to add a dictionary and specify provided API access token and project ID to **Lokalise** framework. This requires only 3 steps:
 
@@ -57,11 +68,10 @@ To connect your application to your **Lokalise** project you need to add a dicti
 2. Add string `API Token` to `Lokalise` dictionary and set value to your API access token (see Account in Lokalise).
 3. Add string `Project ID` to `Lokalise` dictionary and set value to ID of the project you want to use (see project ID in project settings in Lokalise).
 
-Done! Please note that names are case-sensitive.
+Done! Please note that keys are case-sensitive.
 
 ## Usage
 
-Make sure you have generated Lokalise iOS bundle at Download page on Lokalise (make sure to check "Generate Lokalise iOS framework bundle" checkbox). Once generated, navigate to project settings and adjust which version of the bundle is for production and which is for pre-release environment.
 
 Start with updating remote localization to the latest version
 
@@ -94,7 +104,7 @@ Get informed about updates and errors by implementing `LokaliseDelegate` protoco
 [Lokalise sharedObject].delegate = self;
 ```
 
-Enable pre-release localization to test your translations. 
+Enable pre-release localization to test your translations.
 
 ```
 [Lokalise sharedObject].preReleaseLocalization = YES;
@@ -107,3 +117,13 @@ Force local localization to test your local localization.
 ```
 [Lokalise sharedObject].forceLocalLocalization = YES;
 ```
+
+## Publishing changes
+
+
+`[Lokalise sharedObject] checkForUpdates]` sends HTTPS request to Lokalise server to determine if there is a new version of bundle available. If new version is found, it downloads the bundle and stores it locally.
+
+Users would not see any changes in the app copy unless you create a new bundle and set it active. To do so, go to Downloads page again and generate Lokalise iOS framework format bundle. Once done, you can adjust which bundle is used for production and which is used at pre-release (`[Lokalise sharedObject].preReleaseLocalization = YES`).
+
+You may want to send an app beta with pre-release bundle to your testers and switch the bundle to production only once you are sure all the strings are proper.
+
