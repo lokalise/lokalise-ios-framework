@@ -31,7 +31,7 @@ Experimental features are available, use at your own risk:
 - **Remote localization exports**: You must ensure that all localizations are formatted properly by downloading the .zip bundle form Lokalise and trying to compile it with your app.
 
 
-## Gettings started
+## Getting started
 
 To start using Lokalise framework you need to do the following steps:
 
