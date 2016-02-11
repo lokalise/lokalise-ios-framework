@@ -76,7 +76,7 @@ Done! Please note that keys are case-sensitive.
 Start with updating remote localization to the latest version
 
 ```
-[Lokalise sharedObject] checkForUpdates];
+[[Lokalise sharedObject] checkForUpdates];
 ```
 
 To get localized string simply call
