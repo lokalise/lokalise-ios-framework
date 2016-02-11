@@ -108,7 +108,7 @@ Enable pre-release localization to test your translations.
 
 ```
 [Lokalise sharedObject].preReleaseLocalization = YES;
-[Lokalise sharedObject] checkForUpdates];
+[[Lokalise sharedObject] checkForUpdates];
 
 ```
 
