@@ -44,7 +44,7 @@ To start using Lokalise framework you need to do the following steps:
 
 ## [Installation](id:installation)
 
-### Cocoapods
+### CocoaPods
 
 To install using **cocoapods** simply add this line to your **Podfile**
 
