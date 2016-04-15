@@ -26,9 +26,11 @@ Experimental features are available, use at your own risk:
 
 - **System localization:** When changing application at runtime, system inteface objects might not get translated *(search bar for example)*.
 
-- **User interfrace localization:** Without `[NSBundle mainBundle]` swizzling user interface will be localized using only local localization. To use remote **Lokalise** localization bundle swizzling must be enabled.
+- **User interfrace localization:** Without `[NSBundle mainBundle]` swizzling user interface *(storyboards and nibs)* will be localized using only local localization. To use remote **Lokalise** localization bundle swizzling must be enabled.
 
 - **Remote localization exports**: You must ensure that all localizations are formatted properly by downloading the .zip bundle form Lokalise and trying to compile it with your app.
+
+- **User interface update**: It is also up to you, to update user interface that already was localized once new localization bundle was downloaded.
 
 
 ## Getting started

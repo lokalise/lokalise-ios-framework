@@ -52,7 +52,7 @@ extern NSString *__nonnull const LKLAPIErrorDomain;
 /**
  *  Lokalise framework delegate
  */
-@property (weak, nonatomic) id<LokaliseDelegate> delegate;
+@property (weak, nonatomic, nullable) id<LokaliseDelegate> delegate;
 /**
  *  @return NSArray of NSLocale objects. Always has at least one locale.
  */
