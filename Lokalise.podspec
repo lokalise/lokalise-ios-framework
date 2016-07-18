@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "Lokalise"
-  s.version      = "0.3.5"
+  s.version      = "0.3.6"
   s.summary      = "Lokalise framework for remote localization of iOS applications."
   s.description  = <<-DESC.gsub(/^ +\|/,'')
                     |No need to resubmit your app for review to update strings or translations anymore
