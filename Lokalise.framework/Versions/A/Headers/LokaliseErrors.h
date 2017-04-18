@@ -9,6 +9,16 @@
 #ifndef Lokalise_LokaliseErrors_h
 #define Lokalise_LokaliseErrors_h
 
+/**
+ Lokalise API error domain
+ */
+static NSString *LKLAPIErrorDomain = @"lokalise.api.error";
+
+/**
+ Lokalise framework error domain
+ */
+static NSString *LKLErrorDomain = @"lokalise.error";
+
 typedef NS_ENUM(NSInteger, LokaliseErrorCode) {
     LokaliseErrorNoProjectData = 1,
     LokaliseErrorLocaleNotSupported,
@@ -26,3 +36,4 @@ typedef NS_ENUM(NSInteger, LokaliseErrorCode) {
 
 
 #endif
+	

@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "Lokalise"
-  s.version      = "0.3.6"
+  s.version      = "0.4.0"
   s.summary      = "Lokalise framework for remote localization of iOS applications."
   s.description  = <<-DESC.gsub(/^ +\|/,'')
                     |No need to resubmit your app for review to update strings or translations anymore
@@ -12,7 +12,7 @@ Pod::Spec.new do |s|
                  DESC
 
   s.homepage     = "https://lokali.se"
-  s.license      = { :type => "Creative Commons CC BY-ND 4.0"}
+  s.license      = { :type => "Creative Commons CC BY-ND 4.0" }
 
   s.author       = { "Fedya Levkin" => "f.levkin@gmail.com" }
 
