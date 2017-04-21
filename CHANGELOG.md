@@ -1,3 +1,9 @@
+## 0.4.1 Release notes (21-04-2017)
+
+## Fixes
+
+- Default `localizationType` fix.
+
 ## 0.4.0 Release notes (18-04-2017)
 
 ### New
