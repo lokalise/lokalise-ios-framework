@@ -10,6 +10,10 @@
 - NSBundle swizzling for transparent integration
 - XIB and storyboard localization
 
+## Requirements
+
+- iOS 8.0+
+
 ## Getting started
 
 Read **[documentation page](http://docs.lokalise.co/article/mL6XaIoAcw-lokalise-i-os-framework)** for detailed integration guide.

@@ -13,7 +13,7 @@
 
 @interface Lokalise : NSObject
 
-+ (instancetype __nonnull)sharedObject;
+@property (class, readonly, strong) Lokalise *__nonnull sharedObject NS_SWIFT_NAME(shared);
 
 /**
  Lokalise API access token.
@@ -32,8 +32,7 @@
 
 /**
  Determines what source is used for localization.
- Set to `LokaliseLocalizationPreRelease` by default.
- Checks for update if set to `LokaliseLocalizationRelease` or `LokaliseLocalizationPreRelease`.
+ Set to `LokaliseLocalizationRelease` by default.
  */
 @property (nonatomic) LokaliseLocalizationType localizationType;
 
@@ -75,7 +74,7 @@
 
  @param key   The key for a string in the table identified by tableName.
  @param value The value to return if key is nil or if a localized string for key can’t be found in the table.
- @param table The receiver’s string table to search. If tableName is nil or is an empty string, the method attempts to use the table in Localizable.strings.
+ @param tableName The receiver’s string table to search. If tableName is nil or is an empty string, the method attempts to use the table in Localizable.strings.
 
  @return A localized version of the string designated by key in table tableName.
  */

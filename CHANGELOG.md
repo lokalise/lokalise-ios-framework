@@ -1,6 +1,21 @@
+## 0.5.0 Release notes (02-05-2017)
+
+### Braking changes
+
+- `sharedObject` is now a property and available as `shared` property in Swift.
+
+### Behaviour changes
+
+- `checkForUpdates` now checks for update even if another check wasn't finished.
+- Changing `localizationType` doesn't call `checkForUpdates` automatically anymore. **Call `checkForUpdates ` manually after changing `localizationType` property**
+
+### Fixes
+
+- Updated `localizationType` documentation. 
+
 ## 0.4.1 Release notes (21-04-2017)
 
-## Fixes
+### Fixes
 
 - Default `localizationType` fix.
 
