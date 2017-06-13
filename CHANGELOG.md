@@ -1,3 +1,13 @@
+## 0.5.1 Release notes (13-06-2017)
+
+### Breaking changes
+
+- Removed `localizationVersion` parameter.
+
+### Other
+
+- Updated internal API url.
+
 ## 0.5.0 Release notes (02-05-2017)
 
 ### Braking changes

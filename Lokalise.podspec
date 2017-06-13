@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "Lokalise"
-  s.version      = "0.5.0"
+  s.version      = "0.5.1"
   s.summary      = "Lokalise framework for OTA localization for iOS."
   s.description  = <<-DESC.gsub(/^ +\|/,'')
                     |No need to resubmit your app for review to update strings or translations anymore
@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 
   s.platform     = :ios
 
-  s.ios.deployment_target = "7.0"
+  s.ios.deployment_target = "8.0"
 
   s.source = {:git => "https://github.com/lokalise/lokalise-ios-framework.git", :tag => s.version}
 

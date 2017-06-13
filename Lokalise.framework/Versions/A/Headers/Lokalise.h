@@ -26,11 +26,6 @@
 @property (strong, nonatomic, readonly, nullable) NSString *projectID;
 
 /**
- Localization version.
- */
-@property (nonatomic) NSInteger localizationVersion;
-
-/**
  Determines what source is used for localization.
  Set to `LokaliseLocalizationRelease` by default.
  */
