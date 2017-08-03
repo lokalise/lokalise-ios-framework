@@ -1,0 +1,5 @@
+module Lokalise {
+  header "Headers/Lokalise.h"
+  header "Headers/LokaliseErrors.h"
+  header "Headers/LokaliseLocalizationType.h"
+}

@@ -1,3 +1,19 @@
+## 0.6.0 Release notes (03-08-2017)
+
+### New
+
+- Added `LokaliseFrameworkVersion` constant.
+- Added `lokaliseBundleVersion` property.
+- Added `LokaliseDidUpdateLocalizationNotification` which is called when localization source is changed or updated.
+- Added `setLocalizationLocale:makeDefault:completion:` method.
+- Added framework modulemap. Swift integration no longer requires bridging header.
+
+### Breaking changes
+
+- Removed `delegate` property and `LokaliseDelegate` protocol in favour of new and updated methods.
+- `localizationLocale` property is readonly now *(use `setLocalizationLocale:makeDefault:completion:` method)*.
+- `checkForUpdates` method is updated to `checkForUpdatesWithCompletion:`.
+
 ## 0.5.1 Release notes (13-06-2017)
 
 ### Breaking changes
