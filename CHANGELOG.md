@@ -1,3 +1,9 @@
+## 0.6.1 Release notes (06-08-2017)
+
+### Fixes
+
+- Translation from remote bundle no longer ignored if it's equal to the key.
+
 ## 0.6.0 Release notes (03-08-2017)
 
 ### New
