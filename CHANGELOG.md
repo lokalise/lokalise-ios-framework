@@ -1,4 +1,10 @@
-## 0.6.1 Release notes (06-08-2017)
+## 0.6.2 Release notes (19-09-2017)
+
+### New
+
+- Improved support for many Chinese locales.
+
+## 0.6.1 Release notes (06-09-2017)
 
 ### Fixes
 
