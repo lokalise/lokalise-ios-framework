@@ -1,3 +1,9 @@
+## 0.6.3 Release notes (20-09-2017)
+
+### Fixes
+
+- Xcode 8 binary support returned.
+
 ## 0.6.2 Release notes (19-09-2017)
 
 ### New
