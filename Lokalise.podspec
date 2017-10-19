@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "Lokalise"
-  s.version      = "0.6.3"
+  s.version      = "0.7.0"
   s.summary      = "Lokalise framework for OTA localization for iOS."
   s.description  = <<-DESC.gsub(/^ +\|/,'')
                     |No need to resubmit your app for review to update strings or translations anymore
@@ -24,7 +24,9 @@ Pod::Spec.new do |s|
 
   s.ios.vendored_frameworks = "Lokalise.framework"
 
+  s.frameworks   = 'Foundation'
+  s.libraries    = 'c++', 'z'
+
   s.xcconfig = { "HEADER_SEARCH_PATHS" => "$(inherited)" }
-  s.dependency "zipzap", "8.1.1"
 
 end
