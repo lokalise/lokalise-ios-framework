@@ -1,3 +1,16 @@
+## 0.7.1 (06-11-2017)
+
+### Fixes
+
+- Fixed `developmentRegion` locale included in `availableLocales`.
+
+## 0.7.0 (17-10-2017)
+
+### New
+
+- `ZipZap` in no longer a dependency.
+- Updated License.
+
 ## 0.6.3 Release notes (20-09-2017)
 
 ### Fixes
