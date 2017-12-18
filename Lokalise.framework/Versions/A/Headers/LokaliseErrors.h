@@ -31,7 +31,8 @@ typedef NS_ENUM(NSInteger, LokaliseErrorCode) {
     LokaliseErrorBadServerBundleResponse,
     LokaliseErrorNoLocalBundleForLocale,
     LokaliseErrorNoLocalBundleForLocaleSwizzleDisabled,
-    LokaliseErrorNoLokaliseBundleForLocale
+    LokaliseErrorNoLokaliseBundleForLocale,
+    LokaliseErrorNoUniqueIdentifier
 };
 
 

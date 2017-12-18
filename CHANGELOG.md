@@ -1,3 +1,19 @@
+## 0.8.0 (18-12-2017)
+
+### New
+
+- Support for restricting a localization bundle to certain app builds (in your Lokalise dashboard).
+- Support for app insights: app and device languages, daily requests and unique apps (in your Lokalise dashboard).
+
+### Behaviour changes
+
+- Improved Lokalise iOS Bundles synchronization.
+- `checkForUpdates` will not work when the device is locked.
+
+### Other
+
+- Updated internal API URL.
+
 ## 0.7.1 (06-11-2017)
 
 ### Fixes
@@ -53,7 +69,7 @@
 
 ### Other
 
-- Updated internal API url.
+- Updated internal API URL.
 
 ## 0.5.0 Release notes (02-05-2017)
 

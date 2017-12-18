@@ -12,7 +12,19 @@
 
 ## Requirements
 
+- Xcode 8.3+
 - iOS 8.0+
+
+## Quick setup 
+
+To install using CocoaPods simply add this line to your Podfile
+
+```
+use_frameworks!
+pod 'Lokalise', '~> 0.8.0'
+```
+
+If you would like to install manually, download Lokalise.framework and add it to your project and link c++ (libc++.tbd) and z (lib.tbd) libraries.
 
 ## Getting started
 
