@@ -1,3 +1,9 @@
+## 0.8.1 (04-01-2018)
+
+### Fixes
+
+- No more crashes in edge cases when `checkForUpdates` completion is not provided.
+
 ## 0.8.0 (18-12-2017)
 
 ### New
