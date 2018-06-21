@@ -24,7 +24,7 @@ use_frameworks!
 pod 'Lokalise', '~> 0.8.0'
 ```
 
-If you would like to install manually, download Lokalise.framework and add it to your project and link c++ (libc++.tbd) and z (lib.tbd) libraries.
+If you would like to install manually, download Lokalise.framework and add it to your project and link c++ (libc++.tbd) and z (libz.tbd) libraries.
 
 ## Getting started
 
