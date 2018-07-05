@@ -12,7 +12,7 @@ Pod::Spec.new do |s|
                  DESC
 
   s.homepage     = "https://lokalise.co"
-  s.license      = { :type => "Creative Commons CC BY-ND 4.0" }
+  s.license      = { :type => "Custom", :file => 'LICENSE.md' }
 
   s.author       = { "Fedya Levkin" => "f.levkin@gmail.com" }
 

@@ -29,3 +29,7 @@ If you would like to install manually, download Lokalise.framework and add it to
 ## Getting started
 
 Read **[documentation page](http://docs.lokalise.co/article/mL6XaIoAcw-lokalise-i-os-framework)** for detailed integration guide.
+
+## Support
+
+Please contact us through our live support chat for support and bug reports. It is available at every page on **[lokalise.co](https://lokalise.co)**.
