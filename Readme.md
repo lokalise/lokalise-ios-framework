@@ -15,13 +15,23 @@
 - Xcode 8.3+
 - iOS 8.0+
 
-## Quick setup 
+## Quick setup
+
+### CocoaPods
 
 To install using CocoaPods simply add this line to your Podfile
 
 ```
 use_frameworks!
 pod 'Lokalise', '~> 0.8.0'
+```
+
+### Carthage
+
+To install using [Carthage](https://github.com/Carthage/Carthage) simply add below line to your Cartfile
+
+```none
+binary "https://raw.githubusercontent.com/lokalise/lokalise-ios-framework/master/carthage/Lokalise.json" ~> {version}
 ```
 
 If you would like to install manually, download Lokalise.framework and add it to your project and link c++ (libc++.tbd) and z (libz.tbd) libraries.
