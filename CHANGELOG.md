@@ -1,3 +1,14 @@
+## 0.9.0 (21-01-2019)
+
+### New
+
+- Carthage support
+- New `setProjectID:token:` method
+
+### Behaviour changes
+
+- `setAPIToken:projectID:` is deprecated and will be removed in the future
+
 ## 0.8.1 (04-01-2018)
 
 ### Fixes

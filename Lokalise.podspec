@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "Lokalise"
-  s.version      = "0.8.1"
+  s.version      = "0.9.0"
   s.summary      = "Lokalise framework for OTA localization for iOS."
   s.description  = <<-DESC.gsub(/^ +\|/,'')
                     |No need to resubmit your app for review to update strings or translations anymore
@@ -14,7 +14,7 @@ Pod::Spec.new do |s|
   s.homepage     = "https://lokalise.co"
   s.license      = { :type => "Custom", :file => 'LICENSE.md' }
 
-  s.author       = { "Fedya Levkin" => "f.levkin@gmail.com" }
+  s.author       = { "Fedya Levkin" => "fedya@lokalise.co" }
 
   s.platform     = :ios
 
