@@ -23,7 +23,7 @@ To install using [CocoaPods](https://cocoapods.org) simply add this line to your
 
 ```
 use_frameworks!
-pod 'Lokalise', '~> 0.9.0'
+pod 'Lokalise', '~> 0.10.0'
 ```
 
 ### Carthage
@@ -38,7 +38,14 @@ Link **c++ (libc++.tbd)** and **z (libz.tbd)** libraries to your targets.
 
 ### Manual
 
-If you would like to install manually, download Lokalise.framework and add it to your project and link **c++ (libc++.tbd)** and **z (libz.tbd)** libraries.
+If you would like to install manually, download Lokalise.framework and add it to your project (embed and link).
+
+Link **c++ (libc++.tbd)** and **z (libz.tbd)** libraries.
+
+Add **Run Script** to your **Build Phases**.
+```
+bash "${BUILT_PRODUCTS_DIR}/${FRAMEWORKS_FOLDER_PATH}/Lokalise.framework/strip-frameworks.sh"
+```
 
 ## Getting started
 

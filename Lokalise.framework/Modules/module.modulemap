@@ -1,5 +1,6 @@
-module Lokalise {
-  header "Headers/Lokalise.h"
-  header "Headers/LokaliseErrors.h"
-  header "Headers/LokaliseLocalizationType.h"
+framework module Lokalise {
+  umbrella header "Lokalise.h"
+
+  export *
+  module * { export * }
 }

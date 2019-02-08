@@ -1,13 +1,24 @@
+## 0.10.0 (08-02-2019)
+
+### Fixes
+
+- Carthage integration now passes iTunesConnect validation.
+
+### Breaking changes
+
+- The framework is now dynamic (new manual installation process).
+
+
 ## 0.9.0 (21-01-2019)
 
 ### New
 
-- Carthage support
-- New `setProjectID:token:` method
+- Carthage support.
+- New `setProjectID:token:` method.
 
 ### Behaviour changes
 
-- `setAPIToken:projectID:` is deprecated and will be removed in the future
+- `setAPIToken:projectID:` is deprecated and will be removed in the future.
 
 ## 0.8.1 (04-01-2018)
 
