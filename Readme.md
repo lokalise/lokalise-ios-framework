@@ -31,7 +31,7 @@ pod 'Lokalise', '~> 0.10.0'
 To install using [Carthage](https://github.com/Carthage/Carthage) simply add below line to your Cartfile
 
 ```
-binary "https://raw.githubusercontent.com/lokalise/lokalise-ios-framework/master/LokaliseCarthage.json" ~> 0.9.0
+binary "https://raw.githubusercontent.com/lokalise/lokalise-ios-framework/master/LokaliseCarthage.json" ~> 0.10.0
 ```
 
 Link **c++ (libc++.tbd)** and **z (libz.tbd)** libraries to your targets.
