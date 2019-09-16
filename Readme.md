@@ -1,6 +1,6 @@
 # Lokalise iOS SDK
 
-**[Lokalise](https://lokalise.co)** lets you manage keys and translations of your app, game or website – either on your own or with a team of collaborators. Built for developers, Lokalise offers neat features including inline suggestions, project chat, export webhooks and an API, so you can easily integrate with your projects workflow.
+**[Lokalise](https://lokalise.com)** lets you manage keys and translations of your app, game or website – either on your own or with a team of collaborators. Built for developers, Lokalise offers neat features including inline suggestions, project chat, export webhooks and an API, so you can easily integrate with your projects workflow.
 
 ## Features
 
@@ -49,8 +49,8 @@ bash "${BUILT_PRODUCTS_DIR}/${FRAMEWORKS_FOLDER_PATH}/Lokalise.framework/strip-f
 
 ## Getting started
 
-Read **[documentation page](http://docs.lokalise.co/article/mL6XaIoAcw-lokalise-i-os-framework)** for detailed integration guide.
+Read **[documentation page](http://docs.lokalise.com/article/mL6XaIoAcw-lokalise-i-os-framework)** for detailed integration guide.
 
 ## Support
 
-Please contact us through our live support chat for support and bug reports. It is available at every page on **[lokalise.co](https://lokalise.co)**.
+Please contact us through our live support chat for support and bug reports. It is available at every page on **[lokalise.com](https://lokalise.com)**.
