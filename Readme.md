@@ -49,7 +49,7 @@ bash "${BUILT_PRODUCTS_DIR}/${FRAMEWORKS_FOLDER_PATH}/Lokalise.framework/strip-f
 
 ## Getting started
 
-Read **[documentation page](http://docs.lokalise.com/article/mL6XaIoAcw-lokalise-i-os-framework)** for detailed integration guide.
+Read **[documentation page](https://lokalise.com/blog/getting-started-with-ios-localization/)** for detailed integration guide.
 
 ## Support
 
