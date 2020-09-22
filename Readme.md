@@ -12,8 +12,8 @@
 
 ## Requirements
 
-- Xcode 8.3+
-- iOS 8.0+
+- Xcode 12+
+- iOS 9.0+
 
 ## Setup 
 
@@ -23,7 +23,7 @@ To install using [CocoaPods](https://cocoapods.org) simply add this line to your
 
 ```
 use_frameworks!
-pod 'Lokalise', '~> 0.10.0'
+pod 'Lokalise', '~> 0.10.1'
 ```
 
 ### Carthage
@@ -31,7 +31,7 @@ pod 'Lokalise', '~> 0.10.0'
 To install using [Carthage](https://github.com/Carthage/Carthage) simply add below line to your Cartfile
 
 ```
-binary "https://raw.githubusercontent.com/lokalise/lokalise-ios-framework/master/LokaliseCarthage.json" ~> 0.10.0
+binary "https://raw.githubusercontent.com/lokalise/lokalise-ios-framework/master/LokaliseCarthage.json" ~> 0.10.1
 ```
 
 Link **c++ (libc++.tbd)** and **z (libz.tbd)** libraries to your targets.

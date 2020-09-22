@@ -1,3 +1,9 @@
+## 0.10.1 (22-02-2020)
+
+### Breaking changes
+
+- Deployment target is set to iOS 9.0.
+
 ## 0.10.0 (08-02-2019)
 
 ### Fixes
