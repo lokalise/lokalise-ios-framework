@@ -1,3 +1,9 @@
+## 0.10.2 (18-12-2020)
+
+### Other
+
+- Improves stability, performance and fixes a vulnerability in a 3rd party component.
+
 ## 0.10.1 (22-02-2020)
 
 ### Breaking changes

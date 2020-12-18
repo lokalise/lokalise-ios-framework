@@ -23,7 +23,7 @@ To install using [CocoaPods](https://cocoapods.org) simply add this line to your
 
 ```
 use_frameworks!
-pod 'Lokalise', '~> 0.10.1'
+pod 'Lokalise', '~> 0.10.2'
 ```
 
 ### Carthage

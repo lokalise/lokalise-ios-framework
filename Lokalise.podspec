@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "Lokalise"
-  s.version      = "0.10.1"
+  s.version      = "0.10.2"
   s.summary      = "Lokalise framework for OTA localization for iOS."
   s.description  = <<-DESC.gsub(/^ +\|/,'')
                     |No need to resubmit your app for review to update strings or translations anymore
@@ -28,5 +28,11 @@ Pod::Spec.new do |s|
   s.libraries    = 'c++', 'z'
 
   s.xcconfig = { "HEADER_SEARCH_PATHS" => "$(inherited)" }
+
+  s.pod_target_xcconfig = {
+    'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64'
+  }
+
+  s.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
 
 end
