@@ -36,6 +36,16 @@ binary "https://raw.githubusercontent.com/lokalise/lokalise-ios-framework/master
 
 Link **c++ (libc++.tbd)** and **z (libz.tbd)** libraries to your targets.
 
+### SwiftPM
+
+To install using [SwiftPM](https://swift.org/package-manager/) add below line to your Package.swift
+
+```
+.package(url: "https://github.com/lokalise/lokalise-ios-framework.git", .upToNextMajor(from: "0.1.0"))
+```
+
+or add package via Xcode to your project
+
 ### Manual
 
 If you would like to install manually, download Lokalise.framework and add it to your project (embed and link).
