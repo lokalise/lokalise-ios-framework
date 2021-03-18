@@ -1,6 +1,6 @@
 # Lokalise iOS SDK
 
-**[Lokalise](https://lokalise.com)** lets you manage keys and translations of your app, game or website – either on your own or with a team of collaborators. Built for developers, Lokalise offers neat features including inline suggestions, project chat, export webhooks and an API, so you can easily integrate with your projects workflow.
+**[Lokalise](https://lokalise.com)** lets you manage keys and translations of your app, game, or website – either on your own or with a team of collaborators. Built for developers, Lokalise offers neat features including inline suggestions, project chat, export webhooks, and an API, so you can easily integrate with the workflow of your project.
 
 ## Features
 
@@ -19,7 +19,9 @@
 
 ### CocoaPods
 
-To install using [CocoaPods](https://cocoapods.org) simply add this line to your Podfile
+To install using [CocoaPods](https://cocoapods.org):
+
+1. Add these line to your Podfile
 
 ```
 use_frameworks!
@@ -28,24 +30,38 @@ pod 'Lokalise', '~> 0.10.2'
 
 ### Carthage
 
-To install using [Carthage](https://github.com/Carthage/Carthage) simply add below line to your Cartfile
+To install using [Carthage](https://github.com/Carthage/Carthage):
+
+1. Add this line to your Cartfile
 
 ```
-binary "https://raw.githubusercontent.com/lokalise/lokalise-ios-framework/master/LokaliseCarthage.json" ~> 0.10.1
+binary "https://raw.githubusercontent.com/lokalise/lokalise-ios-framework/master/LokaliseCarthage.json" ~> 0.10.2
 ```
 
-Link **c++ (libc++.tbd)** and **z (libz.tbd)** libraries to your targets.
+2. Link **c++ (libc++.tbd)** and **z (libz.tbd)** libraries to your targets.
 
-### Manual
+### Manual *(.framework)*
 
-If you would like to install manually, download Lokalise.framework and add it to your project (embed and link).
+To install manually:
 
-Link **c++ (libc++.tbd)** and **z (libz.tbd)** libraries.
+1. Download **Lokalise.framework** from this repository and add it to your project.
 
-Add **Run Script** to your **Build Phases**.
+2. Add it to your targets (embed and link).
+
+3. Link **c++ (libc++.tbd)** and **z (libz.tbd)** libraries.
+
+4. Add **Run Script** to your **Build Phases**.
 ```
 bash "${BUILT_PRODUCTS_DIR}/${FRAMEWORKS_FOLDER_PATH}/Lokalise.framework/strip-frameworks.sh"
 ```
+
+### Manual *(.xcframework)*
+
+To install **.xcframework** manualy:
+
+1. Download the [Zip archive](https://github.com/lokalise/lokalise-ios-framework/releases/download/0.10.2/Lokalise.xcframework.0.10.2.zip) containing the **.xcframework**, extract it, and add it to your project.
+
+2. Add it to your targets (embed and link).
 
 ## Getting started
 
