@@ -17,6 +17,17 @@
 
 ## Setup 
 
+### Swift Package Manager
+
+To install using [Swift Package Manager](https://swift.org/package-manager/):
+
+a. Add through **File -> Swift Packages -> Add Package Dependency...** action in Xcode. Use `https://github.com/lokalise/lokalise-ios-framework.git` repository URL and the **Version: Up to Next Minor** starting with `0.10.2` option.
+
+b. Add this line to `dependencies` section of your `Package.swift`:
+```
+.package(url: "https://github.com/lokalise/lokalise-ios-framework.git", .upToNextMinor(from: "0.10.2"))
+```
+
 ### CocoaPods
 
 To install using [CocoaPods](https://cocoapods.org):
