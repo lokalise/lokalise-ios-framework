@@ -25,7 +25,7 @@ a. Add through **File -> Swift Packages -> Add Package Dependency...** action in
 
 b. Add this line to `dependencies` section of your `Package.swift`:
 ```
-.package(url: "https://github.com/lokalise/lokalise-ios-framework.git", .upToNextMinor(from: "0.10.2"))
+.package(name: "Lokalise", url: "https://github.com/lokalise/lokalise-ios-framework.git", .upToNextMinor(from: "0.10.2"))
 ```
 
 ### CocoaPods
