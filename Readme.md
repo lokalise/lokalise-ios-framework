@@ -76,7 +76,7 @@ To install **.xcframework** manualy:
 
 ## Getting started
 
-Read **[documentation page](https://lokalise.com/blog/getting-started-with-ios-localization/)** for detailed integration guide.
+Read **[documentation page](https://docs.lokalise.com/en/articles/1400656-lokalise-ios-sdk)** for detailed integration guide.
 
 ## Support
 
