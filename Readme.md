@@ -12,8 +12,8 @@
 
 ## Requirements
 
-- Xcode 12+
-- iOS 9.0+
+- Xcode 14+
+- iOS 11.0+
 
 ## Setup 
 
@@ -21,11 +21,11 @@
 
 To install using [Swift Package Manager](https://swift.org/package-manager/):
 
-a. Add through **File -> Swift Packages -> Add Package Dependency...** action in Xcode. Use `https://github.com/lokalise/lokalise-ios-framework.git` repository URL and the **Version: Up to Next Minor** starting with `0.10.2` option.
+a. Add through **File -> Swift Packages -> Add Package Dependency...** action in Xcode. Use `https://github.com/lokalise/lokalise-ios-framework.git` repository URL and the **Version: Up to Next Minor** starting with `1.0.0` option.
 
 b. Add this line to `dependencies` section of your `Package.swift`:
 ```
-.package(name: "Lokalise", url: "https://github.com/lokalise/lokalise-ios-framework.git", .upToNextMinor(from: "0.10.2"))
+.package(name: "Lokalise", url: "https://github.com/lokalise/lokalise-ios-framework.git", .upToNextMinor(from: "1.0.0"))
 ```
 
 ### CocoaPods
@@ -36,7 +36,7 @@ To install using [CocoaPods](https://cocoapods.org):
 
 ```
 use_frameworks!
-pod 'Lokalise', '~> 0.10.2'
+pod 'Lokalise', '~> 1.0.0'
 ```
 
 ### Carthage
@@ -46,31 +46,16 @@ To install using [Carthage](https://github.com/Carthage/Carthage):
 1. Add this line to your Cartfile
 
 ```
-binary "https://raw.githubusercontent.com/lokalise/lokalise-ios-framework/master/LokaliseCarthage.json" ~> 0.10.2
+binary "https://raw.githubusercontent.com/lokalise/lokalise-ios-framework/master/LokaliseCarthage.json" ~> 1.0.0
 ```
 
 2. Link **c++ (libc++.tbd)** and **z (libz.tbd)** libraries to your targets.
-
-### Manual *(.framework)*
-
-To install manually:
-
-1. Download **Lokalise.framework** from this repository and add it to your project.
-
-2. Add it to your targets (embed and link).
-
-3. Link **c++ (libc++.tbd)** and **z (libz.tbd)** libraries.
-
-4. Add **Run Script** to your **Build Phases**.
-```
-bash "${BUILT_PRODUCTS_DIR}/${FRAMEWORKS_FOLDER_PATH}/Lokalise.framework/strip-frameworks.sh"
-```
 
 ### Manual *(.xcframework)*
 
 To install **.xcframework** manualy:
 
-1. Download the [Zip archive](https://github.com/lokalise/lokalise-ios-framework/releases/download/0.10.2/Lokalise.xcframework.0.10.2.zip) containing the **.xcframework**, extract it, and add it to your project.
+1. Download **Lokalise.xcframework** from this repository and add it to your project.
 
 2. Add it to your targets (embed and link).
 

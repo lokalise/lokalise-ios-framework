@@ -1,3 +1,15 @@
+## 1.0.0 (24-07-2023)
+
+### Other
+
+- Updated internal API URL.
+- Deprecated functionalily removed (no affect on public methods).
+
+### Breaking changes
+
+- Moved to `.xcframework` format.
+- Deployment target is set to iOS 11.0.
+
 ## 0.10.2 (18-12-2020)
 
 ### Other
