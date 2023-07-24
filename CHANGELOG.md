@@ -1,9 +1,12 @@
 ## 1.0.0 (24-07-2023)
 
+This major release does not have functional changes and is marked as such due to the change from `.framework` to `.xframework`, new testing pipelines, and dropped support for iOS 10 and 11.
+Still, please view it as a major update and validate that it works in your existing projects.
+
 ### Other
 
 - Updated internal API URL.
-- Deprecated functionalily removed (no affect on public methods).
+- Deprecated functionality removed (no effect on public methods).
 
 ### Breaking changes
 
