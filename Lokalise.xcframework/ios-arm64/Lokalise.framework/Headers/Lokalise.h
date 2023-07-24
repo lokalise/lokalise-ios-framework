@@ -7,8 +7,8 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "LokaliseErrors.h"
-#import "LokaliseLocalizationType.h"
+#import <Lokalise/LokaliseErrors.h>
+#import <Lokalise/LokaliseLocalizationType.h>
 
 @protocol LokaliseDelegate;
 

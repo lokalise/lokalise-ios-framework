@@ -3,7 +3,7 @@ import PackageDescription
 
 let package = Package(
   name: "Lokalise",
-  platforms: [.iOS(.v9)],
+  platforms: [.iOS(.v11)],
   products: [
     .library(name: "Lokalise",
              targets: ["Lokalise"])
@@ -13,8 +13,8 @@ let package = Package(
   targets: [
     .binaryTarget(
        name: "Lokalise",
-       url: "https://github.com/lokalise/lokalise-ios-framework/releases/download/0.10.2/Lokalise.xcframework.0.10.2.zip",
-       checksum: "9e7c9ede0cc2092d3b86538e0b5c2244ed1d2f32323188a45f1dd06366a68be6"
+       url: "https://github.com/lokalise/lokalise-ios-framework/releases/download/1.0.0/Lokalise.xcframework.zip",
+       checksum: "aeedd53f1540ae6fce0952c43fadc07fe20fa35f4304962e1e897c9d1ff452c8"
     )
   ]
 )
