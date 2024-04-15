@@ -1,3 +1,13 @@
+## 1.0.1 (15-04-2024)
+
+This is a maintenance release that adds Privacy Manifest, Code signature and adjusts the deployment target to be in line with Xcode 15.
+
+### Changes
+
+- Added Privacy Manifest to `.xcframework`.
+- Added Code signature to `.xcframework`.
+- Set deployment target to iOS 12.0.
+
 ## 1.0.0 (24-07-2023)
 
 This major release does not have functional changes and is marked as such due to the change from `.framework` to `.xframework`, new testing pipelines, and dropped support for iOS 9 and 10.
