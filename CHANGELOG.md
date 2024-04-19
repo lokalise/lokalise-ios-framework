@@ -1,3 +1,9 @@
+## 1.0.2 (19-04-2024)
+
+### Fixes
+
+- Added missing keys to Privacy Manifest.
+
 ## 1.0.1 (15-04-2024)
 
 This is a maintenance release that adds Privacy Manifest, Code signature and adjusts the deployment target to be in line with Xcode 15.

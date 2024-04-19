@@ -21,11 +21,11 @@
 
 To install using [Swift Package Manager](https://swift.org/package-manager/):
 
-a. Add through **File -> Swift Packages -> Add Package Dependency...** action in Xcode. Use `https://github.com/lokalise/lokalise-ios-framework.git` repository URL and the **Version: Up to Next Minor** starting with `1.0.1` option.
+a. Add through **File -> Swift Packages -> Add Package Dependency...** action in Xcode. Use `https://github.com/lokalise/lokalise-ios-framework.git` repository URL and the **Version: Up to Next Minor** starting with `1.0.2` option.
 
 b. Add this line to `dependencies` section of your `Package.swift`:
 ```
-.package(name: "Lokalise", url: "https://github.com/lokalise/lokalise-ios-framework.git", .upToNextMinor(from: "1.0.1"))
+.package(name: "Lokalise", url: "https://github.com/lokalise/lokalise-ios-framework.git", .upToNextMinor(from: "1.0.2"))
 ```
 
 ### CocoaPods
@@ -36,7 +36,7 @@ To install using [CocoaPods](https://cocoapods.org):
 
 ```
 use_frameworks!
-pod 'Lokalise', '~> 1.0.1'
+pod 'Lokalise', '~> 1.0.2'
 ```
 
 ### Carthage
@@ -46,7 +46,7 @@ To install using [Carthage](https://github.com/Carthage/Carthage):
 1. Add this line to your Cartfile
 
 ```
-binary "https://raw.githubusercontent.com/lokalise/lokalise-ios-framework/master/LokaliseCarthage.json" ~> 1.0.1
+binary "https://raw.githubusercontent.com/lokalise/lokalise-ios-framework/master/LokaliseCarthage.json" ~> 1.0.2
 ```
 
 2. Link **c++ (libc++.tbd)** and **z (libz.tbd)** libraries to your targets.

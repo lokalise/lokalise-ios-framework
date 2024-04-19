@@ -18,11 +18,11 @@
 		</data>
 		<key>ios-arm64/Lokalise.framework/Info.plist</key>
 		<data>
-		pyRvqD+8/w2kUje/aDOjzJcXjPc=
+		x6TRLftOHRaJDQZFhBbLTIHzShA=
 		</data>
 		<key>ios-arm64/Lokalise.framework/Lokalise</key>
 		<data>
-		vKBnnfUwJgyJnLNROA4rUh9YiK4=
+		+6JYRFzx058y8TICf7oaa6EBfUQ=
 		</data>
 		<key>ios-arm64/Lokalise.framework/Modules/module.modulemap</key>
 		<data>
@@ -30,7 +30,7 @@
 		</data>
 		<key>ios-arm64/Lokalise.framework/PrivacyInfo.xcprivacy</key>
 		<data>
-		Xp+Gl6ysuek0ypCLcqR2uGTQmp0=
+		s9PjhOzyAJNnyzr34u+Bh+1AZNg=
 		</data>
 		<key>ios-arm64_x86_64-simulator/Lokalise.framework/Headers/Lokalise.h</key>
 		<data>
@@ -46,11 +46,11 @@
 		</data>
 		<key>ios-arm64_x86_64-simulator/Lokalise.framework/Info.plist</key>
 		<data>
-		OO3YJvNLxbLLUUe1RgQq88VzYKY=
+		IjobhKwgZMoz9yo3v3rzqqb7Z1s=
 		</data>
 		<key>ios-arm64_x86_64-simulator/Lokalise.framework/Lokalise</key>
 		<data>
-		BSjvwvaUbSAPcjSACHidZtz+BAI=
+		6lqUTp0fKUF/zw2ExapAWrLgsQ8=
 		</data>
 		<key>ios-arm64_x86_64-simulator/Lokalise.framework/Modules/module.modulemap</key>
 		<data>
@@ -58,11 +58,11 @@
 		</data>
 		<key>ios-arm64_x86_64-simulator/Lokalise.framework/PrivacyInfo.xcprivacy</key>
 		<data>
-		Xp+Gl6ysuek0ypCLcqR2uGTQmp0=
+		s9PjhOzyAJNnyzr34u+Bh+1AZNg=
 		</data>
 		<key>ios-arm64_x86_64-simulator/Lokalise.framework/_CodeSignature/CodeResources</key>
 		<data>
-		j2sTR4bZ9W59jXqJ+GC2Pm88PQM=
+		FOPNVjctC/jejWsXCZJ9mRUrlho=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -104,22 +104,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			pyRvqD+8/w2kUje/aDOjzJcXjPc=
+			x6TRLftOHRaJDQZFhBbLTIHzShA=
 			</data>
 			<key>hash2</key>
 			<data>
-			AK+YnZWhrSQSWnY3+Bwjr1m7vdMscqTAWZI3ZqWePxc=
+			eSFL9NZX9iYwGMe9PjDYTcJxAv6EdZxEa2Y+Kfz3b/M=
 			</data>
 		</dict>
 		<key>ios-arm64/Lokalise.framework/Lokalise</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			vKBnnfUwJgyJnLNROA4rUh9YiK4=
+			+6JYRFzx058y8TICf7oaa6EBfUQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			UR5ENoDcPILaAVoPS406F/+2f2ACq9TqpFHV0NPxJ/E=
+			VKKWWzivRX1KiFtSnzt746LUVbmjBglaiXBI04tGmng=
 			</data>
 		</dict>
 		<key>ios-arm64/Lokalise.framework/Modules/module.modulemap</key>
@@ -137,11 +137,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			Xp+Gl6ysuek0ypCLcqR2uGTQmp0=
+			s9PjhOzyAJNnyzr34u+Bh+1AZNg=
 			</data>
 			<key>hash2</key>
 			<data>
-			SWYKEE42QmLi4xwfGJyJnbMxi60APmVttjXjPVJa9Mc=
+			Awl3W2ig5wYYp8OeZlVobouizwQf6jcsYt5OtdFL6lc=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/Lokalise.framework/Headers/Lokalise.h</key>
@@ -181,22 +181,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			OO3YJvNLxbLLUUe1RgQq88VzYKY=
+			IjobhKwgZMoz9yo3v3rzqqb7Z1s=
 			</data>
 			<key>hash2</key>
 			<data>
-			SAMjislkB7EUj+UVDXRq9l2Ox9UvOEHPT5W1SbFJW2U=
+			6sFlQReDDORlB+RGDwftNsJc3kqDYaU5u5990vS7q1o=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/Lokalise.framework/Lokalise</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			BSjvwvaUbSAPcjSACHidZtz+BAI=
+			6lqUTp0fKUF/zw2ExapAWrLgsQ8=
 			</data>
 			<key>hash2</key>
 			<data>
-			i0VRBw/izPcg+X2MCuz3LADFKFUcE9bReFBhElnMCJM=
+			k4T19PNtH+6ToyR0E7iffitqd3nyB3T4a9t9U3PkM4M=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/Lokalise.framework/Modules/module.modulemap</key>
@@ -214,22 +214,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			Xp+Gl6ysuek0ypCLcqR2uGTQmp0=
+			s9PjhOzyAJNnyzr34u+Bh+1AZNg=
 			</data>
 			<key>hash2</key>
 			<data>
-			SWYKEE42QmLi4xwfGJyJnbMxi60APmVttjXjPVJa9Mc=
+			Awl3W2ig5wYYp8OeZlVobouizwQf6jcsYt5OtdFL6lc=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/Lokalise.framework/_CodeSignature/CodeResources</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			j2sTR4bZ9W59jXqJ+GC2Pm88PQM=
+			FOPNVjctC/jejWsXCZJ9mRUrlho=
 			</data>
 			<key>hash2</key>
 			<data>
-			FCb5wKO7xeN5LJryQ1WJR0MaWoZWQsiFLP8E6BCRji0=
+			oHP4opMVRmDx1MkAaqLOBBX7bZrzMnz8b14yA3dHHtw=
 			</data>
 		</dict>
 	</dict>
